@@ -1,0 +1,51 @@
+.split-screen .formWrapper{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.homepageWrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.split-screen.introWrapper {
+    background: #061121;
+}
+
+.split-screen {
+    width: 50%;
+}
+.introBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+.introWrapper-image {
+    width: 200px;
+    height: auto;
+}
+
+.introWrapper-headingText {
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 765px){
+    .homepageWrapper {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .split-screen {
+        width: 100%;
+        flex-grow: 1;
+        height: 50%;
+    }
+    .form{
+        width: 80%;
+    }
+}

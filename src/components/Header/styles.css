@@ -1,0 +1,31 @@
+header.headerWrapper {
+    height: 60px;
+    background: #061121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.headerWrapperBlock {
+    color: #FFFFFF;
+}
+.headerBlockText{
+    font-size: 1rem !important
+}
+@media screen and (max-width: 768px){
+    .headerBlockText{
+        font-size: 0.8rem !important;
+    }
+    .headerBlockTextHeading{
+        font-size: 1.1rem !important;
+   }
+   .headerWrapperBlock .MuiButton-contained{
+        padding: 0.3rem .7rem;
+        font-size: 0.7rem;
+        margin: 0.5rem 0;
+   }
+   .headerWrapper{
+       padding: 1rem !important;
+   }
+}
