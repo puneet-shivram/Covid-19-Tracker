@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family:'Baloo Tammudu 2', cursive;
+}
+.mb10{
+    margin-bottom: 10px !important ;
+}
+
+#loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root{
+    height: 100%;
+}
+
+.MuiInput-underline:after{
+    border-bottom: 2px solid #061022 !important;
+}
+.MuiFormLabel-root.Mui-focused{
+    color: #061022 !important;
+}
+
+.MuiButton-contained.MuiButton-fullWidth{
+    width: 100%;
+    background: #ffffff;
+    border:none;
+    color: #061022;
+    border: 1px solid #061022 ;
+    transition: all 0.2s ease;
+}
+
+.MuiButton-contained.MuiButton-fullWidth:hover{
+    background: #061022 !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff;
+}
+section{
+    padding: 2rem;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mt20{
+    margin-top: 20px !important;
+}
+.sectionHeading{
+    color:#061121
+}
+
+/* =========================
+Form styling starts here
+============================= */
+.formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form {
+    border: 1px solid #061121;
+    border-radius: 4px;
+    padding: 3rem 2rem;
+    width: 50%;
+}
+
+.MuiTypography-root.formHeading.MuiTypography-h5 {
+    text-align: center;
+    font-size: 2rem;
+    color: #061121;
+}
+.recharts-wrapper{
+    margin: auto !important;
+}
+
+/* =========================
+Form styling ends here
+============================= */
+
+@media screen and (max-width: 768px){
+    section{
+        padding: 1rem;
+    }
+}
+

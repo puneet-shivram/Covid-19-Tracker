@@ -1,0 +1,16 @@
+.cardWrapper{
+    display: flex;
+}
+.cardItIem{
+    flex-grow: 1;
+}
+.graphWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.graphItem {
+    width: 100%;
+    flex-grow: 1;
+}
